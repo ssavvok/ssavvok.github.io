@@ -1,0 +1,341 @@
+
+* {
+    transition:all 0.3s;
+}
+.body {
+    width: 1250px;
+  margin: auto;
+}
+.header {
+width: 1250px;
+height: 200px;
+background-image: url(img/shapka.jpg);
+
+position: fixed;
+box-shadow: 0px 0px 7px rgba(150, 150, 150, 0.834), inset 0px 0px 12px rgba(150, 150, 150, 0.657);
+}
+.content {
+    width: 1250px;
+    height: 350px;
+   
+    margin-top: 10px;
+}
+.foto {
+    width: 620px;
+    height: 350px;
+  
+    float: left;
+}
+.text {
+    width: 620px;
+    height: 350px;
+  background: rgb(228, 228, 228);
+    float: right;
+}
+.conty {
+    height: 200px;
+}
+.hea {
+    width: 1250px;
+height: 10px;
+background: rgb(255, 255, 255);
+top: 0px;
+position: fixed;
+}
+.img {
+max-width: 100%;
+   
+}
+.img:hover {
+    transform: scale(1.1);
+}
+p {
+    color: rgb(29, 29, 29);
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 15px;
+}
+h1 {
+    color: rgb(29, 29, 29);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 86px;
+}
+h2 {
+    color: rgb(29, 29, 29);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+.foot {
+    width: 1250px;
+    height: 50px;
+    background: rgb(221, 221, 221);
+    margin-top: 10px;
+}
+.txt {
+    color: rgb(29, 29, 29);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 10px;
+    
+}
+.logoimg {
+    max-width: 100%;
+}
+.logo {
+    float: left;
+   
+    width: 200px;
+    margin-left: 20px;
+}
+.title {
+    float: right;
+  
+    margin: auto;
+    width: 1030px;
+    height: 200px;
+}
+.flogo {
+    max-width: 100%;
+}
+.fimg {
+    width: 50px;
+    float: right;
+    height: 50px;
+    margin-right: 10px;
+}
+.ftxt {
+    width: 1190px;
+    float: left;
+    height: 50px;
+}
+
+
+
+@media only screen and (max-width: 810px) {
+    .body {
+        width: 740px;
+      margin: auto;
+    }
+    .header {
+    width: 740px;
+    height: 160px;
+    background-image: url(img/shapka.jpg);
+    
+    position: fixed;
+    }
+    .content {
+        width: 740px;
+        height: 206px;
+       
+        margin-top: 10px;
+    }
+    .foto {
+        width: 365px;
+        height: 206px;
+        float: left;
+        
+        
+    }
+    .text {
+        width: 365px;
+        height: 206px;
+       float: right;
+        
+    }
+    .conty {
+        height: 160px;
+    }
+    .hea {
+        width: 740px;
+    height: 10px;
+    background: rgb(255, 255, 255);
+    top: 0px;
+    position: fixed;
+    }
+  
+    p {
+        color: rgb(29, 29, 29);
+        font-size: 13px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding-left: 12px;
+    }
+    h1 {
+        color: rgb(29, 29, 29);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-size: 16px;
+        margin-top: 60px;
+    }
+    h2 {
+        color: rgb(29, 29, 29);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-size: 14px;
+    }
+    .foot {
+        width: 740px;
+        height: 50px;
+        background: rgb(221, 221, 221);
+        margin-top: 10px;
+    }
+    .txt {
+        color: rgb(29, 29, 29);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-size: 10px;
+        padding-top: 5px;
+        
+    }
+    .logoimg {
+        max-width: 100%;
+        margin-top: 10px;
+    }
+    .logo {
+        float: left;
+       
+        width: 140px;
+        margin-left: 10px;
+    }
+    .title {
+        float: right;
+      
+        margin: auto;
+        width: 550px;
+        height: 140px;
+    }
+    .flogo {
+        max-width: 100%;
+    }
+    .fimg {
+        width: 50px;
+        float: right;
+        height: 50px;
+        margin-right: 10px;
+    }
+    .ftxt {
+        width: 440px;
+        float: left;
+        height: 50px;
+    } 
+    .img {
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 610px) {
+    .body {
+        width: 510px;
+      margin: auto;
+    }
+    .header {
+    width: 510px;
+    height: 140px;
+    background-image: url(img/shapka.jpg);
+    
+    position: fixed;
+    }
+    .content {
+        width: 510px;
+        height: 488px;
+       
+        margin-top: 10px;
+    }
+    .foto {
+        width: 100%;
+        height: 288px;
+       
+        
+    }
+    .text {
+        width: 100%;
+        height: 200px;
+        background: rgb(221, 221, 221);
+        
+    }
+    .conty {
+        height: 140px;
+    }
+    .hea {
+        width: 510px;
+    height: 10px;
+    background: rgb(255, 255, 255);
+    top: 0px;
+    position: fixed;
+    }
+    .img {
+    max-width: 100%;
+       
+    }
+    p {
+        color: rgb(29, 29, 29);
+        font-size: 13px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding-left: 14px;
+    }
+    h1 {
+        color: rgb(29, 29, 29);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-size: 16px;
+        margin-top: 60px;
+    }
+    h2 {
+        color: rgb(29, 29, 29);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-size: 16px;
+    }
+    .foot {
+        width: 510px;
+        height: 50px;
+        background: rgb(221, 221, 221);
+        margin-top: 10px;
+    }
+    .txt {
+        color: rgb(29, 29, 29);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-size: 11px;
+        padding-top: 2px;
+        
+    }
+    .logoimg {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+    .logo {
+        float: left;
+       
+        width: 100px;
+        margin-left: 10px;
+    }
+    .title {
+        float: right;
+      
+        margin: auto;
+        width: 400px;
+        height: 140px;
+    }
+    .flogo {
+        max-width: 100%;
+    }
+    .fimg {
+        width: 50px;
+        float: right;
+        height: 50px;
+        margin-right: 10px;
+    }
+    .ftxt {
+        width: 440px;
+        float: left;
+        height: 50px;
+    } 
+}
