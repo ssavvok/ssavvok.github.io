@@ -245,19 +245,19 @@ h2 {
     }
     .content {
         width: 390px;
-        height: 400px;
+        height: 410px;
        
         margin-top: 10px;
     }
     .foto {
         width: 100%;
-        height: 288px;
+        height: 220px;
        
         
     }
     .text {
         width: 100%;
-        height: 200px;
+        height: 190px;
         background: rgb(221, 221, 221);
         
     }
