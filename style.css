@@ -231,21 +231,21 @@ h2 {
 
 
 
-@media only screen and (max-width: 610px) {
+@media only screen and (max-width: 480px) {
     .body {
-        width: 510px;
+        width: 430px;
       margin: auto;
     }
     .header {
-    width: 510px;
+    width: 430px;
     height: 140px;
     background-image: url(img/shapka.jpg);
     
     position: fixed;
     }
     .content {
-        width: 510px;
-        height: 488px;
+        width: 430px;
+        height: 400px;
        
         margin-top: 10px;
     }
@@ -265,7 +265,7 @@ h2 {
         height: 140px;
     }
     .hea {
-        width: 510px;
+        width: 430px;
     height: 10px;
     background: rgb(255, 255, 255);
     top: 0px;
@@ -295,7 +295,7 @@ h2 {
         font-size: 16px;
     }
     .foot {
-        width: 510px;
+        width: 430px;
         height: 50px;
         background: rgb(221, 221, 221);
         margin-top: 10px;
