@@ -315,14 +315,14 @@ h2 {
     .logo {
         float: left;
        
-        width: 100px;
+        width: 80px;
         margin-left: 10px;
     }
     .title {
         float: right;
       
         margin: auto;
-        width: 400px;
+        width: 310px;
         height: 140px;
     }
     .flogo {
@@ -335,7 +335,7 @@ h2 {
         margin-right: 10px;
     }
     .ftxt {
-        width: 440px;
+        width: 340px;
         float: left;
         height: 50px;
     } 
