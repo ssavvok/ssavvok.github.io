@@ -8,7 +8,7 @@
 }
 .header {
 width: 1250px;
-height: 180px;
+height: 150px;
 background-image: url(img/shapka.jpg);
 
 position: fixed;
@@ -34,7 +34,7 @@ box-shadow: 0px 0px 7px rgba(150, 150, 150, 0.834), inset 0px 0px 12px rgba(150,
     border-radius: 10px;
 }
 .conty {
-    height: 200px;
+    height: 150px;
 }
 .hea {
     width: 1250px;
@@ -61,7 +61,7 @@ h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-size: 28px;
-    margin-top: 86px;
+    margin-top: 61px;
 }
 h2 {
     color: rgb(29, 29, 29);
@@ -74,13 +74,16 @@ h2 {
     height: 50px;
     background: rgb(221, 221, 221);
     margin-top: 10px;
+    border-radius: 10px;
+
 }
 .txt {
     color: rgb(29, 29, 29);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-size: 10px;
-    padding-top: 10px;
+
+   
     
 }
 .logoimg {
@@ -89,15 +92,15 @@ h2 {
 .logo {
     float: left;
    
-    width: 200px;
-    margin-left: 20px;
+    width: 145px;
+    margin-left: 10px;
 }
 .title {
     float: right;
-  
+ 
     margin: auto;
     width: 1030px;
-    height: 200px;
+    height: 150px;
 }
 .flogo {
     max-width: 100%;
@@ -107,6 +110,7 @@ h2 {
     float: right;
     height: 50px;
     margin-right: 10px;
+   
 }
 .ftxt {
     width: 1190px;
